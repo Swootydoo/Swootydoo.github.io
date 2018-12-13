@@ -1,2 +1,0 @@
-RewriteCond %{HTTP_HOST} ^www.swootydoo.com
-RewriteRule ^(.*) https://swootydoo.github.io/Index.html/$1 [P]
