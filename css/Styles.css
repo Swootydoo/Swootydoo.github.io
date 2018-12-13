@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+#headBG {
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top: 0;
+	min-width: 1200px;
+	background-color: #ea688c;
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.4);
+	;
+}
+#headBG2 {
+	background-color: red;
+}
+.width {
+	width: 960px;
+	margin: 0 auto;
+}
+#head {
+	width: 1200px;
+	margin: 0 auto;
+}
+#head li {
+	display: inline-block;
+	float: left;
+	margin: 12px 15px 0px 10px;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 50px;
+	color: #f69ab3;
+}
+#head li a {
+	text-decoration: none;
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 50px;
+	color: #f69ab3;
+	-webkit-transition: all 0.05s ease-in-out;
+	-o-transition: all 0.05s ease-in-out;
+	transition: all 0.05s ease-in-out;
+}
+#head li a:hover {
+	color: #fff;
+}
+#commsLink {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#logoTop {
+	display: inline-block;
+	float: left;
+	margin-top: -10px;
+	margin-left: 100px;
+}
+#hero {
+	min-width: 1000px;
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/heroImage.png);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-size: cover;
+}
+#contentHeader {
+	height: 60px;
+	width: 100%;
+	margin-top: -50px;
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.4);
+	background-color: #ea688c;
+}
+h2 {
+	min-width: 1200px;
+	font-family: 'Paytone One';
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+}
+#contentBG {
+	background-color: #f6edef;
+}
+#copy {
+	font-family: 'Nunito';
+	font-size: 28px;
+	color: #441d27;
+	height: 680px;
+}
+#copy ul {
+	margin-top: 50px;
+}
+#copy ul li {
+	display: inline-block;
+	font-size: 80px;
+	margin-left: 90px;
+	background-color: #ea688c;
+	padding: 10px 40px;
+	border-radius: 20px;
+	-webkit-transition: all 0.05s ease-in-out;
+	-o-transition: all 0.05s ease-in-out;
+	transition: all 0.05s ease-in-out;
+}
+#copy ul li:hover {
+	background-color: #f69ab3;
+	color: #fff;
+	transform: scale(1.05);
+}
+#copy ul li:active {
+	background-color: #ea688c;
+	color: #fff;
+	transform: scale(0.95);
+}
+#copy ul a {
+	color: #f69ab3;
+	text-decoration: none;
+}
+#logoTop {
+	-webkit-transition: all 0.05s ease-in-out;
+	-o-transition: all 0.05s ease-in-out;
+	transition: all 0.05s ease-in-out;
+}
+#logoTop:hover {
+	transform: scale(1.05);
+}
+#footBg {
+	width: 100%;
+	height: 205px;
+	background-color: #ea688c;
+}
+
+#foot{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
